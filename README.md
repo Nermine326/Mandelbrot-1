@@ -9,9 +9,9 @@ REQUIREMENTS:
   
  INITIALIZE:
  
- The Mandelbrot set is the set of complex numbers "a" that do not diverge this expression : ![](https://latex.codecogs.com/gif.latex?z_%7Bi&plus;1%7D%20%3D%20z_i%5E2%20&plus;a)
+ The Mandelbrot set is the set of complex numbers "a" that do not diverge this expression :  ![](https://latex.codecogs.com/gif.latex?z_%7Bi&plus;1%7D%20%3D%20z_i%5E2%20&plus;a)
  
- Thus we can use different criteria to determine if a number diverges that expression or not. In this program a number of iterations are computed untill a max_iter is achieved. Many initial values for z can also be chosen (z_0), and we can cut the iteration defining a maximum modulus (theoretically if ![](https://latex.codecogs.com/gif.latex?2%3C%7Cz_i%7C), then the expression will always diverge). All these parameters can be changed when initializing the Mandelbrot object, or with the reset() method (when reset is used, any parameter that is not specified will be set to the DEFAULT value.
+ Thus we can use different criteria to determine if a number diverges that expression or not. In this program a number of iterations are computed untill a max_iter is achieved. Many initial values for z can also be chosen (z_0), and we can cut the iteration defining a maximum modulus (theoretically if   ![](https://latex.codecogs.com/gif.latex?2%3C%7Cz_i%7C), then the expression will always diverge). All these parameters can be changed when initializing the Mandelbrot object, or with the reset() method (when reset is used, any parameter that is not specified will be set to the DEFAULT value.
  
  The grid in which the Mandelbrot set is calculated is specified with l_vertex and r_vertex, describing the rectangle in which the complex numbers will be considered. Also there are discretitation parameters: N_square, N_x and N_y; if N_square is determined the other to are ignored, and the same number of points are considered for both directions.
  
