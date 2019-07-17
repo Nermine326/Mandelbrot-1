@@ -19,29 +19,29 @@ REQUIREMENTS:
  
  DEFAULT VALUES:
  
- -start = complex(0,0)
- -max_iter = 500
- -ax_modul = 2
- -N_square = 301
- -N_x = 301, N_y = 301
- -l_vertex = (-1.5,-1), r_vertex = (0.5,1)
- -cm = plt.cm.RdBu
+ - start = complex(0,0)
+ - max_iter = 500
+ - ax_modul = 2
+ - N_square = 301
+ - N_x = 301, N_y = 301
+ - l_vertex = (-1.5,-1), r_vertex = (0.5,1)
+ - cm = plt.cm.RdBu
  
  *Stimated time needed to compute the set with the DEFAULT values = 7 s*
  
  METHODS:
  
- -compute_save(directory = os.path.join(os.getenv("HOME"),"Mandelbrot"),
+ - compute_save(directory = os.path.join(os.getenv("HOME"),"Mandelbrot"),
  name = "Mandelbrot", title = "Mandelbrot", file_format = "png",verbose = 0) : Computes the set and saves the plot. 
  With verbose = 1 prints the time it took to compute the set.
  
- -make_set() : Generates the set of points that describe the complex numbers.
+ - make_set() : Generates the set of points that describe the complex numbers.
  
- -compute_set() : Calculates the Mandelbrot set.
+ - compute_set() : Calculates the Mandelbrot set.
  
  - plot(size = (12,12) : Plots the Mandelbrot set without saving in file (size describes the size in which will be ploted in screen). make_set() and compute_set() must be called before using this method.
  
- -save_fig(directory = os.path.join(os.getenv("HOME"),"Mandelbrot"),name = "Mandelbrot", title = "Mandelbrot", file_format = "png") : Saves the figure, same requirement as plot().
+ - save_fig(directory = os.path.join(os.getenv("HOME"),"Mandelbrot"),name = "Mandelbrot", title = "Mandelbrot", file_format = "png") : Saves the figure, same requirement as plot().
  
  -reset_cm(cm): Reset the colormap, this helps if you have already computed the Mandelbrot set and you want to try different colormaps on the plot.
  
