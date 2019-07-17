@@ -43,6 +43,6 @@ REQUIREMENTS:
  
  - save_fig(directory = os.path.join(os.getenv("HOME"),"Mandelbrot"),name = "Mandelbrot", title = "Mandelbrot", file_format = "png") : Saves the figure, same requirement as plot().
  
- -reset_cm(cm): Reset the colormap, this helps if you have already computed the Mandelbrot set and you want to try different colormaps on the plot.
+ - reset_cm(cm): Reset the colormap, this helps if you have already computed the Mandelbrot set and you want to try different colormaps on the plot.
  
  
