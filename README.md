@@ -4,8 +4,8 @@ Autor : Arkaitz Bidaurrazaga Barrueta
 This is a Python based program that computes and plots the Mandelbrot set. Different parameters can be determined, like cutoff parameters or colormap for the figure. 
 
 REQUIREMENTS:
-  -matplotlib
-  -numpy
+ - matplotlib
+ - numpy
   
  INITIALIZE:
  
